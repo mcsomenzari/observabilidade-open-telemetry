@@ -2,13 +2,13 @@
 ## Passos para execução:
 
 1. Subir container Docker
-   docker-compose up --build
+   - docker-compose up --build
 
 3. Testar api do servicoA
-   Utilize o arquivo teste.http
+   - Utilize o arquivo teste.http
 
 5. Acompanhar os traces
-   Abra um navegador e acesse o Zipkin UI em http://localhost:9411. Você poderá visualizar os traces gerados pelas requisições feitas aos serviços ao clicar em RUN QUERY.
+   - Abra um navegador e acesse o Zipkin UI em http://localhost:9411. Você poderá visualizar os traces gerados pelas requisições feitas aos serviços ao clicar em RUN QUERY.
  
 
 ## Requisitos 
