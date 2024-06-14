@@ -1,0 +1,16 @@
+POST http://localhost:8080/v1/temperature HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "zipCode": "02712080"
+}
+
+###
+POST http://localhost:8081/v1/weather HTTP/1.1
+Host: localhost:8081
+Content-Type: application/json
+
+{
+    "city": "São Paulo"
+}
