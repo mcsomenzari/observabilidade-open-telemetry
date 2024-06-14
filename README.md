@@ -2,17 +2,12 @@
 Execute o comando docker-compose:  
 docker-compose up -d
 
-Vai ser necessário também descomentar as linhas 'local' nos arquivos:  
-./cmd/serverA/main.go  
-./cmd/serverB/main.go  
-./internal/application/infra/web/handler_service_a.go  
-
 Instale o 'REST Client' no 'VS Code' e execute o teste da pasta:  
 ./api/api.http  
 
 Url jaeger:  
 http://localhost:16686/  
-Pesquisar pelos serviceA e/ou serviceB
+Pesquisar pelos serviços serviceA e/ou serviceB
 
 Url zipkin:  
 http://localhost:9411/
