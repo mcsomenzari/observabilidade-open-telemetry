@@ -43,3 +43,5 @@ Após iniciar os serviços, utilize o arquivo api.http ou
    ```
    http://localhost:9411
    ```
+   
+![Clipboard02](https://github.com/mcsomenzari/observabilidade-open-telemetry/assets/29438629/dad5278b-a27a-46c7-b92c-a62fbbc988b6)
