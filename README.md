@@ -26,8 +26,12 @@ Após iniciar os serviços, utilize o arquivo api.http ou
 
 - Para o serviço A:
 
+   ``` Teste CEP VÁLIDO:
+   curl -X POST -H "Content-Type: application/json" -d "{\"cep\":\"02712080\"}" http://localhost:8080/cep
    ```
-   curl -X POST -H "Content-Type: application/json" -d '{"cep":"02722030"}' http://localhost:8080/cep
+
+   ``` Teste CEP INVÁLIDO:
+   curl -X POST -H "Content-Type: application/json" -d "{\"cep\":\"00000000\"}" http://localhost:8080/cep
    ```
    
 - Para o serviço B (substitua `CEP` por um código postal válido de 8 dígitos):
